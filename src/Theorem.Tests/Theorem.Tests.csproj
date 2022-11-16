@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Theorem.Solver\Theorem.Solver.csproj" />
     <ProjectReference Include="..\Theorem\Theorem.csproj" />
   </ItemGroup>
 
