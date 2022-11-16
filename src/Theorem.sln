@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theorem.Tests", "Theorem.Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theorem", "Theorem\Theorem.csproj", "{FC5D433A-969E-4DEC-A1DC-6BA5D70A5770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theorem.Solver", "Theorem.Solver\Theorem.Solver.csproj", "{4DBB6591-4176-47D4-AA09-72B22E01834C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theorem.Solver", "Theorem.Solver\Theorem.Solver.csproj", "{4DBB6591-4176-47D4-AA09-72B22E01834C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theorem.Parser", "Theorem.Parser\Theorem.Parser.csproj", "{7CFB3EE5-5347-4CD0-9A73-80BAD9B6CB8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4DBB6591-4176-47D4-AA09-72B22E01834C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBB6591-4176-47D4-AA09-72B22E01834C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBB6591-4176-47D4-AA09-72B22E01834C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFB3EE5-5347-4CD0-9A73-80BAD9B6CB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFB3EE5-5347-4CD0-9A73-80BAD9B6CB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFB3EE5-5347-4CD0-9A73-80BAD9B6CB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFB3EE5-5347-4CD0-9A73-80BAD9B6CB8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
